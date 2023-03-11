@@ -13,12 +13,19 @@
    *****Then your code should be pushed to github. REFRESH YOUR PAGE TO SEE THE CODE
 
 CONTROL C will help to find where you stack
+get status -> will show us our status
 NOTE: git status  -> This is our friend. This can be used any time to see the progress
 
 4. Create a new SECOND COMMIT
    *Create a new class : MySecondClass
    *Create a new commit and push the code to github
-     *git add .
-     *git commit -m "added my second java class"
-     *git push
+     * git add .
+     * git commit -m "added my second java class"
+     * git push
 
+5. ADDING SPECIFIC FILES
+    *Create 2 Java classes: MyThirdClass, FourthClass
+    *Create a commit with ONLY myFourthClass
+        * git add "src/main/java/first_git_package/FourthClass.java"
+        * git commit -m "adding fourth class"
+        * git push
