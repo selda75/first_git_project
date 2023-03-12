@@ -85,3 +85,13 @@ Prerequsites :
     ******************************* DAY 2 ************************************
     BRANCHING
     git branch -a -> show me all branch
+    git branch selda -> create selda branch
+    git checkout selda -> switched to selda branch
+    create a code : MySixthClass
+  create a new commit and push
+      git add .
+      git commit -m "message"
+      git push --set-upstream origin ahmet
+  Then codes will be in the remote ahmet branch
+
+
